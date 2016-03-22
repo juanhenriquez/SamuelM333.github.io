@@ -2,4 +2,5 @@
 
 ##To do
 
-- [ ] Usar Angular Material
+- Mostrar proyectos
+- Acerca de mi
