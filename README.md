@@ -1,6 +1,11 @@
-# SamuelM333
+# Portfolio page
 
 ##To do
 
-- Mostrar proyectos
-- Acerca de mi
+- Show projects
+- About me
+- Footer icons
+    - GitHub
+    - LinkedIn?
+    - Fiverr
+- Contact me
