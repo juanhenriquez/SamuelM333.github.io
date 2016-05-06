@@ -9,19 +9,31 @@ html
         link(rel="stylesheet" href="stylesheets/stylesheet.css")
         title Samuel Murillo&#39;s GitHub
     body
-        header
+        header                                
             nav.grey.darken-2.z-depth-2
                 .container
                     .nav-wrapper
+                        span.hide-on-large-only
+                            i.material-icons.left
                         a.brand-logo(href="#") Logo
-                        ul#nav-mobile.right.hide-on-med-and-down
+                        
+                        ul.right.hide-on-med-and-down
                             li
-                                a(href="#") Home
+                                a(href="#!") Home
                             li
-                                a(href="#") Contact me
+                                a(href="#!") Contact me
+                                
+                        ul#slide-out.side-nav.grey.darken-2.white-text
+                            li
+                                a(href="#!") Home
+                            li
+                                a(href="#!") Contact me
+                        a(href="#" data-activates="slide-out").button-collapse
+                            i.mdi-navigation-menu
+        
         .container
             .row
-                #main-card.card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                #main-card.card.small.grey.darken-2.col.s12.white-text.z-depth-2.center-align
                     h1 Samuel Murillo
                     h4 Back-end Developer
             .row
@@ -97,9 +109,9 @@ html
             footer.page-footer.grey.darken-3
                 .footer-copyright.grey.darken-2
                     .container 
-                        © 2014 Copyright Text
+                        © 2016 Copyright Text
                         a.grey-text.text-lighten-4.right(href="#!") More Links
         
-    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
-    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
-    script(type="text/javascript" src="javascripts/main.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
+        script(type="text/javascript" src="javascripts/main.js")
