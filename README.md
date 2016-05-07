@@ -2,12 +2,12 @@
 
 ##To do
 
-~~- SideNav~~
+- ~~SideNav~~
 - Show projects
 - About me
- 			- Studies
- 			- Skills
- 			- Experience
+   - Studies
+   - Skills
+   - Experience
 - Footer icons
     - GitHub
     - LinkedIn?
