@@ -14,8 +14,9 @@ html
             nav.grey.darken-2.z-depth-2
                 .container
                     .nav-wrapper
-                        span.hide-on-large-only
-                            i.material-icons.left
+                        a(onclick="$('.button-collapse').sideNav('show');").hide-on-large-only
+                            i.material-icons.left menu
+                                
                         a.brand-logo(href="#") Logo
                         
                         ul.right.hide-on-med-and-down
@@ -24,11 +25,11 @@ html
                             li
                                 a(href="#!") Contact me
                                 
-                        ul#slide-out.side-nav.grey.darken-2.white-text
+                        ul#slide-out.side-nav.grey.darken-2
                             li
-                                a(href="#!") Home
+                                a(href="#!").white-text Home
                             li
-                                a(href="#!") Contact me
+                                a(href="#!").white-text Contact me
                         a(href="#" data-activates="slide-out").button-collapse
                             i.mdi-navigation-menu
         
