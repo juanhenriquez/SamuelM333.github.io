@@ -9,3 +9,4 @@
     - LinkedIn?
     - Fiverr
 - Contact me
+- Favicon
