@@ -1,6 +1,3 @@
-a {
-  color: #26A69A; }
-
 body {
   background-color: #424242; }
 
@@ -9,5 +6,9 @@ body {
 
 #projects {
   text-align: center; }
+
+.btn {
+  background-color: #26A69A;
+  padding: 0 1rem; }
 
 /*# sourceMappingURL=stylesheet.css.map */
