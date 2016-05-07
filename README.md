@@ -2,6 +2,7 @@
 
 ##To do
 
+~~- SideNav~~
 - Show projects
 - About me
  			- Studies
