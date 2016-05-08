@@ -13,8 +13,9 @@
 - Footer content
    - Icons
        - GitHub
-       - LinkedIn?
+       - LinkedIn
        - Fiverr
 - Contact me
 - Favicon
-- Effect fade in text 
+- ~~Effect fade in text~~
+- Logo
