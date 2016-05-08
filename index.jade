@@ -5,7 +5,8 @@ html
         meta(http-equiv="X-UA-Compatible" content="chrome=1")
         meta(name="viewport" content="width=device-width, initial-scale=1.0") 
         link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
-        link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O", crossorigin="anonymous")
+        link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous")
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css")
         link(rel="stylesheet" href="stylesheets/stylesheet.css")
         title Samuel Murillo&#39;s GitHub
@@ -51,7 +52,7 @@ html
                                 | Project 1
                                 i.material-icons.right more_vert
                             p
-                                a(href="#").waves-effect.waves-light.btn
+                                a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
                         .card-reveal.grey.darken-2
@@ -69,7 +70,7 @@ html
                                 | Project 2
                                 i.material-icons.right more_vert
                             p
-                                a(href="#").waves-effect.waves-light.btn
+                                a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link  
                         .card-reveal.grey.darken-2
@@ -88,7 +89,7 @@ html
                                 | Project 3
                                 i.material-icons.right more_vert
                             p
-                                a(href="#").waves-effect.waves-light.btn
+                                a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
                         .card-reveal.grey.darken-2
@@ -106,7 +107,7 @@ html
                                 | Project 4
                                 i.material-icons.right more_vert
                             p
-                                a(href="#").waves-effect.waves-light.btn
+                                a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
                         .card-reveal.grey.darken-2
@@ -115,13 +116,17 @@ html
                                 i.material-icons.right close
                             p Aenean dictum est molestie.
             
-        footer
-            footer.page-footer.grey.darken-3
-                .footer-copyright.grey.darken-2
-                    .container 
-                        span © 2016 Copyright Text 
-                        a.grey-text.text-lighten-4.right(href="#!") More Links
-        
+        footer.page-footer.grey.darken-3
+            .footer-copyright.grey.darken-2
+                .container
+                    span.left © 2016 Copyright Text
+                    a.grey-text.text-lighten-4(href="https://github.com/SamuelM333" target="_blank").right.right-align
+                        i.fa.fa-github.fa-2x.white-text
+                    a.grey-text.text-lighten-4(href="#!" target="_blank").right.right-align
+                        i.fa.fa-linkedin-square.fa-2x.white-text
+                    a(href="https://www.fiverr.com/samuelm333" target="_blank").right.right-align
+                        img(src="images/fiverr_logo.svg")
+
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
         script(type="text/javascript" src="javascripts/main.js")

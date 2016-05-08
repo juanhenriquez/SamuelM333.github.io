@@ -11,4 +11,8 @@ body {
   background-color: #26A69A;
   padding: 0 1rem; }
 
+.footer-icon {
+  float: right;
+  right: 150px; }
+
 /*# sourceMappingURL=stylesheet.css.map */
