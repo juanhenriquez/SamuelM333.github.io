@@ -2,20 +2,25 @@
 
 ##To do
 
-- ~~SideNav~~
-- Show projects
-   - ~~Buttons instead of links~~
-   - ~~GitHub logo~~
-- About me
-   - Studies
-   - Skills
-   - Experience
-- Footer content
-   - Icons
-       - GitHub
-       - LinkedIn
-       - Fiverr
-- Contact me
-- Favicon
-- ~~Effect fade in text~~
-- Logo
+- [x] ~~SideNav~~
+- [ ] Show projects
+   - [x] ~~Buttons instead of links~~
+   - [x] ~~GitHub logo~~
+   - [ ] Fill content 
+- [ ] About me
+   - [ ] Studies
+   - [ ] Skills
+   - [ ] Experience
+- [ ] Footer
+   - [ ] Fix positions 
+   - [ ] Icons
+       - [x] ~~GitHub~~
+       - [ ] GitLab
+       - [x] ~~LinkedIn~~
+       - [x] ~~Fiverr~~
+- [ ] Contact me
+- [ ] Favicon
+- [ ] Effects
+   - [x]  ~~Fade in title~~
+   - [ ]  Fade in projects title
+- [ ] Logo
