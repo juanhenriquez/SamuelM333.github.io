@@ -8,7 +8,7 @@ html
         link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" 
         integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous")
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css")
-        link(rel="stylesheet" href="stylesheets/animate.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
         link(rel="stylesheet" href="stylesheets/stylesheet.css")
         title Samuel Murillo&#39;s GitHub
     body
@@ -40,6 +40,7 @@ html
                 #main-card.card.small.grey.darken-2.col.s12.white-text.z-depth-2.center-align
                     h1.animated.fadeInUp Samuel Murillo
                     h4.animated.fadeInUp Back-end Developer
+
             .row
                 #projects.panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
                     h4 Projects
@@ -121,13 +122,20 @@ html
             .footer-copyright.grey.darken-2
                 .container
                     span.left © 2016 Copyright Text
-                    span#footer-icons.right.valign-wrapper
+                    // <div style="text-align:right;line-height:50px;width:100%;height:50px;font-size:2em;">Text Content</div>
+                    #footer-icons
                         a.grey-text.text-lighten-4(href="https://github.com/SamuelM333" target="_blank")
-                            i.fa.fa-github.fa-2x.white-text.valign
+                            i.fa.fa-github-square.fa-2x.white-text. | 
                         |   
-                        a.grey-text.text-lighten-4(href="#!" target="_blank")
-                            i.fa.fa-linkedin-square.fa-2x.white-text.valign
+                            
+                        a.grey-text.text-lighten-4(href="https://github.com/SamuelM333" target="_blank")
+                            i.fa.fa-gitlab.fa-2x.white-text. | 
+                        |  
+                            
+                        a.grey-text.text-lighten-4(href="https://www.linkedin.com/in/samuel-murillo-249547123" target="_blank")
+                            i.fa.fa-linkedin-square.fa-2x.white-text. | 
                         |   
+                            
                         a(href="https://www.fiverr.com/samuelm333" target="_blank")
                             img(src="images/fiverr_logo.svg").valign
 
