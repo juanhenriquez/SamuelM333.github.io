@@ -1,5 +1,5 @@
 body {
-  background-color: #424242; }
+  background-color: #333; }
 
 #main-card {
   margin-top: 20px; }
@@ -7,12 +7,15 @@ body {
 div.bg-overlay-info h5 {
   padding-left: 15px; }
 
-#projects {
+.title {
   text-align: center; }
 
 .btn {
   background-color: #26A69A;
   padding: 0 1rem; }
+
+footer.page-footer {
+  padding-top: 0; }
 
 #footer-icons {
   text-align: right;
