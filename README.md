@@ -1,18 +1,24 @@
 # Portfolio page
 
 ##To do
+- [ ] Main card
+    - [ ] More content or less height
 - [ ] Nav
     - [x] ~~SideNav~~
-    - [ ] Add more elements
+    - [x] ~~Add more elements~~
     - [ ] Scroll page on click
+    - [ ] Image on side nav
 - [ ] Show projects
    - [x] ~~Buttons instead of links~~
    - [x] ~~GitHub logo~~
    - [ ] Fill content 
+   - [ ] Icon on header
 - [ ] About me
-   - [ ] Studies
-   - [ ] Skills
-   - [ ] Experience
+   - [x] ~~Studies~~
+   - [x] ~~Skills~~
+   - [x] ~~Experience~~
+   - [ ] Fill content
+   - [ ] Icon on header
 - [ ] Footer
    - [x] Fix positions
    - [ ] Copyright content 
@@ -22,8 +28,10 @@
        - [x] ~~LinkedIn~~
        - [x] ~~Fiverr~~
 - [ ] Contact me
+    - [ ] Fill content
+    - [ ] Icon on header
 - [ ] Favicon
 - [ ] Effects
    - [x]  ~~Fade in title~~
-   - [ ]  Fade in projects title
+   - [ ]  Fade in headrs?
 - [ ] Logo
