@@ -1,8 +1,10 @@
 # Portfolio page
 
 ##To do
-
-- [x] ~~SideNav~~
+- [ ] Nav
+    - [x] ~~SideNav~~
+    - [ ] Add more elements
+    - [ ] Scroll page on click
 - [ ] Show projects
    - [x] ~~Buttons instead of links~~
    - [x] ~~GitHub logo~~
@@ -12,10 +14,11 @@
    - [ ] Skills
    - [ ] Experience
 - [ ] Footer
-   - [ ] Fix positions 
-   - [ ] Icons
+   - [x] Fix positions
+   - [ ] Copyright content 
+   - [x] Icons
        - [x] ~~GitHub~~
-       - [ ] GitLab
+       - [x] ~~GitLab~~
        - [x] ~~LinkedIn~~
        - [x] ~~Fiverr~~
 - [ ] Contact me

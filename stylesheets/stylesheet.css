@@ -14,8 +14,25 @@ body {
 #footer-icons {
   text-align: right;
   line-height: 50px;
-  width: 100%;
+  width: auto;
   height: 50px;
-  font-size: 15px; }
+  font-size: 15px;
+  padding-top: 0;
+  margin-top: 5px;
+  padding-right: 17px; }
+
+#footer-icons a {
+  height: 30px;
+  margin: 0 5px;
+  position: relative; }
+
+#fiverr {
+  position: absolute;
+  top: -12px;
+  padding-right: 10px; }
+
+#copyright {
+  position: relative;
+  top: -5px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
