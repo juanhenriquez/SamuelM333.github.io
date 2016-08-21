@@ -4,6 +4,9 @@ body {
 #main-card {
   margin-top: 20px; }
 
+div.bg-overlay-info h5 {
+  padding-left: 15px; }
+
 #projects {
   text-align: center; }
 
