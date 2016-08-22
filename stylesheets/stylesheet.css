@@ -7,6 +7,9 @@ body {
 div.bg-overlay-info h5 {
   padding-left: 15px; }
 
+.teal-icons {
+  color: #26A69A !important; }
+
 .title {
   text-align: center; }
 
