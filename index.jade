@@ -13,7 +13,7 @@ html
         title Samuel Murillo&#39;s GitHub
     body
         header
-            nav#navigation-menu.grey.darken-2.z-depth-2
+            nav#navigation-menu.grey.darken-3.z-depth-2
                 .container
                     .nav-wrapper
                         a(onclick="$('.button-collapse').sideNav('show');").hide-on-large-only
@@ -23,93 +23,93 @@ html
                         
                         ul.right.hide-on-med-and-down
                             li
-                                a(href="#section-about-me") 
-                                    i.material-icons.left.teal-icons account_circle
+                                a(data-scroll href="#section-about-me") 
+                                    i.material-icons.left.teal-text account_circle
                                     | About me
                             li
-                                a(href="#section-projects") 
-                                    i.material-icons.left.teal-icons desktop_windows
+                                a(data-scroll href="#section-projects") 
+                                    i.material-icons.left.teal-text desktop_windows
                                     | Projects
                             li
-                                a(href="#section-contact-me")
-                                    i.material-icons.left.teal-icons mail
+                                a(data-scroll href="#section-contact-me")
+                                    i.material-icons.left.teal-text mail
                                     | Contact me
                                 
-                        ul#slide-out.side-nav.grey.darken-2
+                        ul#slide-out.side-nav.grey.darken-3
                             li
                                 .bg-overlay-info
                                     img(src="" alt="logo")
                                     h5.white-text Samuel Murillo
                                     .divider
                             li
-                                a(href="#section-about-me") 
-                                    i.material-icons.left.teal-icons account_circle
+                                a(href="#section-about-me" onclick="$('.button-collapse').sideNav('hide');") 
+                                    i.material-icons.left.teal-text account_circle
                                     span.white-text About me
                             li
-                                a(href="#section-projects") 
-                                    i.material-icons.left.teal-icons desktop_windows
+                                a(href="#section-projects" onclick="$('.button-collapse').sideNav('hide');") 
+                                    i.material-icons.left.teal-text desktop_windows
                                     span.white-text Projects
                             li
-                                a(href="#section-contact-me")
-                                    i.material-icons.left.teal-icons mail
+                                a(href="#section-contact-me" onclick="$('.button-collapse').sideNav('hide');")
+                                    i.material-icons.left.teal-text mail
                                     span.white-text Contact me
                         a(href="#" data-activates="slide-out").button-collapse
                             i.mdi-navigation-menu
         .container
             section#section-home
                 .row
-                    #main-card.card.small.grey.darken-2.col.s12.white-text.z-depth-2.center-align
+                    #main-card.card.small.grey.darken-3.col.s12.white-text.z-depth-2.center-align
                         h1.animated.fadeInUp Samuel Murillo
-                        h4.animated.fadeInUp Backend Developer
+                        h4.animated.fadeInUp.teal-text Backend Developer
             section#section-about-me
                 .row
-                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                    .panel-card.small.grey.col.s12.darken-3.white-text.z-depth-2
                         h4.title
-                                i.material-icons.teal-icons info_outline
+                                i.material-icons.teal-text info_outline
                                 span  About me
             .row
                 .col.s12
-                    .card.grey.darken-2
+                    .card.grey.darken-3
                         .card-content.white-text
                             span.card-title 
-                                i.material-icons.teal-icons account_circle
+                                i.material-icons.teal-text account_circle
                                 span  Myself
                             p Culpa dolore ad consequat elit nisi eu elit nulla esse eu. Id labore do incididunt anim ut nostrud. Commodo aliqua laborum culpa ea fugiat quis nisi dolore dolore cupidatat.
                 .col.s12.m6
-                    .card.grey.darken-2
+                    .card.grey.darken-3
                         .card-content.white-text
                             span.card-title 
-                                i.material-icons.teal-icons school
+                                i.material-icons.teal-text school
                                 span  Studies
                             p Culpa dolore ad consequat elit nisi eu elit nulla esse eu. Id labore do incididunt anim ut nostrud. Commodo aliqua laborum culpa ea fugiat quis nisi dolore dolore cupidatat. Cillum ut non fugiat amet sunt deserunt aute do duis ullamco deserunt occaecat minim incididunt. Id commodo culpa cupidatat deserunt occaecat exercitation sit ex nisi nulla velit in mollit. Laboris id qui eiusmod ea. Eu nostrud quis id nostrud officia commodo sunt tempor consectetur sint non officia. Eu cupidatat ex dolor aliqua non qui Lorem pariatur eu nisi. Sunt cillum do dolor incididunt duis. Magna ex officia cillum eiusmod nostrud exercit
                 .col.s12.m6
-                    .card.grey.darken-2
+                    .card.grey.darken-3
                         .card-content.white-text
                             span.card-title
-                                i.material-icons.teal-icons assessment
+                                i.material-icons.teal-text assessment
                                 span  Skills
                             p Culpa dolore ad consequat elit nisi eu elit nulla esse eu. Id labore do incididunt anim ut nostrud. Commodo aliqua laborum culpa ea fugiat quis nisi dolore dolore cupidatat. Cillum ut non fugiat amet sunt deserunt aute do duis ullamco deserunt occaecat minim incididunt. Id commodo culpa cupidatat deserunt occaecat exercitation sit ex nisi nulla velit in mollit. Laboris id qui eiusmod ea. Eu nostrud quis id nostrud officia commodo sunt tempor consectetur sint non officia. Eu cupidatat ex dolor aliqua non qui Lorem pariatur eu nisi. Sunt cillum do dolor incididunt duis. Magna ex officia cillum eiusmod nostrud exercit
             section#section-projects
                 .row
-                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                    .panel-card.small.grey.col.s12.darken-3.white-text.z-depth-2
                         h4.title 
                             //i.material-icons dashboard
-                            i.material-icons.teal-icons desktop_windows
+                            i.material-icons.teal-text desktop_windows
                             span  Projects
             .row        
                 .showcase.col.s12.m6
-                    .card.grey.darken-2.white-text.z-depth-2
+                    .card.grey.darken-3.white-text.z-depth-2
                         .card-image.waves-effect.waves-block.waves-light
                             img.activator(src="https://placehold.it/300x200")
                         .card-content
-                            span.card-title.activator.grey.darken-2
+                            span.card-title.activator.grey.darken-3
                                 | Project 1
                                 i.material-icons.right more_vert
                             p
                                 a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
-                        .card-reveal.grey.darken-2
+                        .card-reveal.grey.darken-3
                             span.card-title
                                 | Project 1
                                 i.material-icons.right close
@@ -120,18 +120,18 @@ html
                                     |  This is a link 
 
                 .showcase.col.s12.m6
-                    .card.grey.darken-2.white-text.z-depth-2
+                    .card.grey.darken-3.white-text.z-depth-2
                         .card-image.waves-effect.waves-block.waves-light
                             img.activator(src="https://placehold.it/300x200")
                         .card-content
-                            span.card-title.activator.grey.darken-2
+                            span.card-title.activator.grey.darken-3
                                 | Project 2
                                 i.material-icons.right more_vert
                             p
                                 a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link  
-                        .card-reveal.grey.darken-2
+                        .card-reveal.grey.darken-3
                             span.card-title
                                 | Project 2
                                 i.material-icons.right close
@@ -142,18 +142,18 @@ html
                                     |  This is a link 
 
                 .showcase.col.s12.m6
-                    .card.grey.darken-2.white-text.z-depth-2
+                    .card.grey.darken-3.white-text.z-depth-2
                         .card-image.waves-effect.waves-block.waves-light
                             img.activator(src="https://placehold.it/300x200")
                         .card-content
-                            span.card-title.activator.grey.darken-2
+                            span.card-title.activator.grey.darken-3
                                 | Project 3
                                 i.material-icons.right more_vert
                             p
                                 a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
-                        .card-reveal.grey.darken-2
+                        .card-reveal.grey.darken-3
                             span.card-title
                                 | Project 3
                                 i.material-icons.right close
@@ -164,18 +164,18 @@ html
                                     |  This is a link 
 
                 .showcase.col.s12.m6
-                    .card.grey.darken-2.white-text.z-depth-2
+                    .card.grey.darken-3.white-text.z-depth-2
                         .card-image.waves-effect.waves-block.waves-light
                             img.activator(src="https://placehold.it/300x200")
                         .card-content
-                            span.card-title.activator.grey.darken-2
+                            span.card-title.activator.grey.darken-3
                                 | Project 4
                                 i.material-icons.right more_vert
                             p
                                 a(href="#").waves-effect.waves-light.btn.z-depth-2
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
-                        .card-reveal.grey.darken-2
+                        .card-reveal.grey.darken-3
                             span.card-title
                                 | Project 4
                                 i.material-icons.right close
@@ -187,14 +187,14 @@ html
         
             section#section-contact-me
                 .row
-                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                    .panel-card.small.grey.col.s12.darken-3.white-text.z-depth-2
                         h4.title 
-                            i.material-icons.teal-icons mail
+                            i.material-icons.teal-text mail
                             span  Contact me
 
             .row
                 .col.s12
-                    .card.grey.darken-2
+                    .card.grey.darken-3
                         .card-content.white-text
                             p Culpa dolore ad consequat elit nisi eu elit nulla esse eu. Id labore do incididunt anim ut nostrud. Commodo aliqua laborum culpa ea fugiat quis nisi dolore dolore cupidatat.
             
@@ -216,6 +216,6 @@ html
                             img(src="images/fiverr_logo.svg" id="fiverr")
 
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
-        script(src="jquery.malihu.PageScroll2id.min.js")
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.0.0/jquery.smooth-scroll.min.js")
         script(type="text/javascript" src="javascripts/main.js")
