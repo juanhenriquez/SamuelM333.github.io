@@ -13,25 +13,25 @@ html
         title Samuel Murillo&#39;s GitHub
     body
         header
-            nav.grey.darken-2.z-depth-2
+            nav#navigation-menu.grey.darken-2.z-depth-2
                 .container
                     .nav-wrapper
                         a(onclick="$('.button-collapse').sideNav('show');").hide-on-large-only
                             i.material-icons.left menu
                                 
-                        a.brand-logo(href="#") Logo
+                        a.brand-logo(href="#section-home") Logo
                         
                         ul.right.hide-on-med-and-down
                             li
-                                a(href="#!") 
+                                a(href="#section-about-me") 
                                     i.material-icons.left.teal-icons account_circle
                                     | About me
                             li
-                                a(href="#!") 
+                                a(href="#section-projects") 
                                     i.material-icons.left.teal-icons desktop_windows
                                     | Projects
                             li
-                                a(href="#!")
+                                a(href="#section-contact-me")
                                     i.material-icons.left.teal-icons mail
                                     | Contact me
                                 
@@ -42,23 +42,31 @@ html
                                     h5.white-text Samuel Murillo
                                     .divider
                             li
-                                a(href="#!").white-text About me
+                                a(href="#section-about-me") 
+                                    i.material-icons.left.teal-icons account_circle
+                                    span.white-text About me
                             li
-                                a(href="#!").white-text Projects
+                                a(href="#section-projects") 
+                                    i.material-icons.left.teal-icons desktop_windows
+                                    span.white-text Projects
                             li
-                                a(href="#!").white-text Contact me
+                                a(href="#section-contact-me")
+                                    i.material-icons.left.teal-icons mail
+                                    span.white-text Contact me
                         a(href="#" data-activates="slide-out").button-collapse
                             i.mdi-navigation-menu
         .container
-            .row
-                #main-card.card.small.grey.darken-2.col.s12.white-text.z-depth-2.center-align
-                    h1.animated.fadeInUp Samuel Murillo
-                    h4.animated.fadeInUp Backend Developer
-            .row
-                #about-me.panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
-                    h4.title
-                            i.material-icons.teal-icons info_outline
-                            span  About me
+            section#section-home
+                .row
+                    #main-card.card.small.grey.darken-2.col.s12.white-text.z-depth-2.center-align
+                        h1.animated.fadeInUp Samuel Murillo
+                        h4.animated.fadeInUp Backend Developer
+            section#section-about-me
+                .row
+                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                        h4.title
+                                i.material-icons.teal-icons info_outline
+                                span  About me
             .row
                 .col.s12
                     .card.grey.darken-2
@@ -81,12 +89,13 @@ html
                                 i.material-icons.teal-icons assessment
                                 span  Skills
                             p Culpa dolore ad consequat elit nisi eu elit nulla esse eu. Id labore do incididunt anim ut nostrud. Commodo aliqua laborum culpa ea fugiat quis nisi dolore dolore cupidatat. Cillum ut non fugiat amet sunt deserunt aute do duis ullamco deserunt occaecat minim incididunt. Id commodo culpa cupidatat deserunt occaecat exercitation sit ex nisi nulla velit in mollit. Laboris id qui eiusmod ea. Eu nostrud quis id nostrud officia commodo sunt tempor consectetur sint non officia. Eu cupidatat ex dolor aliqua non qui Lorem pariatur eu nisi. Sunt cillum do dolor incididunt duis. Magna ex officia cillum eiusmod nostrud exercit
-            .row
-                .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
-                    h4.title 
-                        //i.material-icons dashboard
-                        i.material-icons.teal-icons desktop_windows
-                        span  Projects
+            section#section-projects
+                .row
+                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                        h4.title 
+                            //i.material-icons dashboard
+                            i.material-icons.teal-icons desktop_windows
+                            span  Projects
             .row        
                 .showcase.col.s12.m6
                     .card.grey.darken-2.white-text.z-depth-2
@@ -176,11 +185,12 @@ html
                                     i.fa.fa-github.white-text 
                                     |  This is a link 
         
-            .row
-                #about-me.panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
-                    h4.title 
-                        i.material-icons.teal-icons mail
-                        span  Contact me
+            section#section-contact-me
+                .row
+                    .panel-card.small.grey.col.s12.darken-2.white-text.z-depth-2
+                        h4.title 
+                            i.material-icons.teal-icons mail
+                            span  Contact me
 
             .row
                 .col.s12
@@ -206,5 +216,6 @@ html
                             img(src="images/fiverr_logo.svg" id="fiverr")
 
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
+        script(src="jquery.malihu.PageScroll2id.min.js")
         script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
         script(type="text/javascript" src="javascripts/main.js")
