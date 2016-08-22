@@ -12,13 +12,13 @@
    - [x] ~~Buttons instead of links~~
    - [x] ~~GitHub logo~~
    - [ ] Fill content 
-   - [ ] Icon on header
+   - [x] Icon on header
 - [ ] About me
    - [x] ~~Studies~~
    - [x] ~~Skills~~
    - [x] ~~Experience~~
    - [ ] Fill content
-   - [ ] Icon on header
+   - [x] Icon on header
 - [ ] Footer
    - [x] Fix positions
    - [ ] Copyright content 
@@ -29,9 +29,9 @@
        - [x] ~~Fiverr~~
 - [ ] Contact me
     - [ ] Fill content
-    - [ ] Icon on header
+    - [x] Icon on header
 - [ ] Favicon
 - [ ] Effects
    - [x]  ~~Fade in title~~
-   - [ ]  Fade in headrs?
+   - [ ]  Fade in headers?
 - [ ] Logo
